@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario2</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>FORMULARIO 2</h1>
+    <form>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        </div>
+        <div class="form-group">
+            <label for="ciudad_nacimiento">Ciudad de Nacimiento:</label>
+            <input type="text" id="ciudad_nacimiento" name="ciudad_nacimiento">
+        </div>
+        <div class="form-group">
+            <label for="pais_nacimiento">País de Nacimiento:</label>
+            <input type="text" id="pais_nacimiento" name="pais_nacimiento">
+        </div>
+        <div class="form-group">
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad">
+        </div>
+        <div class="form-group">
+            <label for="num_pasaporte">Número de Pasaporte:</label>
+            <input type="text" id="num_pasaporte" name="num_pasaporte">
+        </div>
+        <div class="form-group">
+            <label for="pais_emision">País donde ha sido emitido su pasaporte:</label>
+            <input type="text" id="pais_emision" name="pais_emision">
+        </div>
+        <div class="form-group">
+            <label for="fecha_emision">Fecha de Emisión del Pasaporte:</label>
+            <input type="number" id="dia_emision" name="dia_emision" placeholder="Día">
+            <select id="mes_emision" name="mes_emision">
+                <option value="0">Mes</option>
+                <option value="01">Enero</option>
+                <option value="02">Febrero</option>
+                <option value="03">Marzo</option>
+                <option value="04">Abril</option>
+                <option value="05">Mayo</option>
+                <option value="06">Junio</option>
+                <option value="07">Julio</option>
+                <option value="08">Agosto</option>
+                <option value="09">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            <input type="number" id="año_emision" name="año_emision" placeholder="Año">
+        </div>
+        
+        <div class="form-group">
+    <label for="fecha_vencimiento">Fecha de Vencimiento del Pasaporte:</label>
+    <select id="anio_vencimiento" name="anio_vencimiento">
+        <option value="">AÑO</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+        <option value="2029">2029</option>
+        <option value="2030">2030</option>
+        <option value="2031">2031</option>
+    </select>
+</div>
+
+        </div>
+       
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
